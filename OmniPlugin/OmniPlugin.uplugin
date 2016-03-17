@@ -1,0 +1,21 @@
+{
+	"FileVersion": 3,
+
+	"Version": 1,
+	"VersionName": "0.1",
+
+	"FriendlyName": "Phantom Omni Plugin",
+	"Description": "Unofficial plugin for SenAble 'Phantom Omni' device(s).",
+	"Category": "Input.Controller",
+
+	"CreatedBy": "ZeonmkII",
+	"CreatedByURL": "http://ue4.tuachob.com",
+	"Modules": [
+		{
+			"Name": "OmniPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms" : [ "Win64", "Win32" ]
+		}
+	]
+}
